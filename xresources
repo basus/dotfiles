@@ -1,0 +1,56 @@
+URxvt*perl-ext-common:      default,matcher,clipboard,url-select,keyboard-select
+URxvt*url-select.launcher:  /usr/sbin/chromium
+URxvt*matcher.button:       1
+URxvt*url-select.underline: true
+
+!!URxvt Settings
+URxvt*dynamicColors:        on
+URxvt*depth:                32
+URxvt*scrollBar:            false
+URxvt*cursorBlink:          true
+URxvt*cursorUnderline:      false
+URxvt*savelines:            1024
+URxvt*shading:              60
+
+!!URxvt Fonts
+URxvt*letterSpace:          -2
+URxvt*font:                 xft:DejaVu Sans Mono for Powerline:size=11
+URxvt*boldFont:             xft:DejaVu Sans Mono for Powerline:size=11
+
+!!URxvt Font Settings
+Xft*autohint:               1
+Xft*dpi:		    96
+Xft*lcdfilter:              lcddefault
+Xft*hintstyle:              slight
+Xft*hinting:                1
+Xft*antialias:              1
+Xft*rgba:                   rgb
+
+!!URxvt Color Scheme
+URxvt*background: [75]#1C1C1C
+URxvt*foreground: [75]#D2C5BC
+
+! BLACK
+*color0:  #525252
+*color8:  #707070
+! RED
+*color1:  #B0777B
+*color9:  #AA7E87
+! GREEN
+*color2:  #94A65D
+*color10: #BACD8F
+! YELLOW
+*color3:  #E8C98E
+*color11: #E0B274
+! BLUE
+*color4:  #869AA3
+*color12: #96A8B7
+! MAGENTA
+*color5:  #9F98B7
+*color13: #A393CE
+! CYAN
+*color6:  #93A2B9
+*color14: #9BB7CC
+! WHITE
+*color7:  #D2D1D4
+*color15: #D6DAC3

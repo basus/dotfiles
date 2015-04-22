@@ -1,0 +1,27 @@
+# Mute output
+"pulseaudio-ctl mute"
+XF86AudioMute
+
+# Decrease volume by 5%
+"pulseaudio-ctl down 5"
+XF86AudioLowerVolume
+
+# Increase volume by 5%
+"pulseaudio-ctl up 5"
+XF86AudioRaiseVolume
+
+# Mute mic
+"pulseaudio-ctl mute-input"
+XF86AudioMicMute
+
+# Decrease monitor backlight by 5%
+"xbacklight -dec 5"
+XF86MonBrightnessDown
+
+# Increase monitor backlight by 5%
+"xbacklight -inc 5"
+XF86MonBrightnessUp
+
+# Launch dmenu to run more programs
+"dmenu_run -b -fn 'DejaVu Sans Mono-11'"
+XF86LaunchA

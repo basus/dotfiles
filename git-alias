@@ -1,0 +1,19 @@
+############## Git Aliases #################################
+
+log_format='--pretty=format:%Cblue%h%Creset %cr %Cgreen%an%Creset %s'
+
+alias gs='git status'
+alias ga='git add'
+alias gau='git add -u'
+alias gb='git branch'
+alias gc='git commit'
+alias gca='git commit --amend'
+alias gcm='git commit -m'
+alias gp='git push'
+alias gh='git push github master'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gdis='git checkout -- .'
+alias gl='git log --graph "$log_format"'
+alias gff='git pull --rebase'
+alias gmv='git mv'
